@@ -96,9 +96,9 @@ class LcSuggest_IndexController extends Omeka_Controller_AbstractActionControlle
         // response, and output suggestions in JSON.
         $client = new Zend_Http_Client();
         $client->setUri($lcSuggest->suggest_endpoint);
-        $client->setParameterGet('q', $this->getRequest()->getParam('term'));
+        $client->setParameterGet('query', $this->getRequest()->getParam('term'));
         $json = json_decode($client->request()->getBody());
-        $this->_helper->json($json[1]);
+        $this->_helper->json($json->suggestions);
     }
     
     /**

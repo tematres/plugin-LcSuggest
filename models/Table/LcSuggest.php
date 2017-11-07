@@ -29,9 +29,9 @@ class Table_LcSuggest extends Omeka_Db_Table
      * @see http://id.loc.gov/
      */
     private $_suggestEndpoints = array(
-        'http://id.loc.gov/suggest' => array(
-            'name' => 'All Authorities and Vocabularies', 
-            'url'  => 'http://id.loc.gov', 
+        'http://vocabularios.saij.gob.ar/organigramas/ar26520/suggest.php' => array(
+            'name' => 'Estructura Orgánica del Poder Ejecutivo Nacional', 
+            'url'  => 'http://vocabularios.saij.gob.ar/organigramas/ar26520/', 
         ), 
         'http://id.loc.gov/authorities/suggest' => array(
             'name' => 'All Authorities', 
@@ -57,29 +57,54 @@ class Table_LcSuggest extends Omeka_Db_Table
             'name' => 'Library of Congress Genre Form Headings', 
             'url'  => 'http://id.loc.gov/authorities/genreForms.html', 
         ), 
-        'http://id.loc.gov/vocabulary/graphicMaterials/suggest' => array(
-            'name' => 'Thesaurus for Graphic Materials', 
-            'url'  => 'http://id.loc.gov/vocabulary/graphicMaterials.html', 
+                'http://vocabularios.saij.gob.ar/saij/suggest.php' => array(
+            'name' => 'Tesauro SAIJ', 
+            'url'  => 'http://vocabularios.saij.gob.ar/saij/demo/', 
         ), 
-        'http://id.loc.gov/vocabulary/relators/suggest' => array(
-            'name' => 'MARC Code List for Relators', 
-            'url'  => 'http://id.loc.gov/vocabulary/relators.html', 
+        'http://vocabularios.saij.gob.ar/inap/suggest.php' => array(
+            'name' => 'Tesauro de administración pública', 
+            'url'  => 'http://vocabularios.saij.gob.ar/inap/', 
         ), 
-        'http://id.loc.gov/vocabulary/countries/suggest' => array(
-            'name' => 'MARC List for Countries', 
-            'url'  => 'http://id.loc.gov/vocabulary/countries.html', 
+        'http://vocabularios.saij.gob.ar/jusbaires/suggest.php' => array(
+            'name' => 'Vocabulario controlado de Biblioteca y Jurisprudencia del Consejo de la Magistratura de la CABA', 
+            'url'  => 'http://vocabularios.saij.gob.ar/jusbaires/', 
         ), 
-        'http://id.loc.gov/vocabulary/geographicAreas/suggest' => array(
-            'name' => 'MARC List for Geographic Areas', 
-            'url'  => 'http://id.loc.gov/vocabulary/geographicAreas.html', 
+        'http://vocabularios.saij.gob.ar/ddhh/suggest.php' => array(
+            'name' => 'Tesauro de derechos humanos', 
+            'url'  => 'http://vocabularios.saij.gob.ar/ddhh/', 
         ), 
-        'http://id.loc.gov/vocabulary/languages/suggest' => array(
-            'name' => 'MARC List for Languages', 
-            'url'  => 'http://id.loc.gov/vocabulary/languages.html', 
+        'http://vocabularios.saij.gob.ar/anmthes/suggest.php' => array(
+            'name' => 'Vocabulario del Archivo Nacional de la Memoria', 
+            'url'  => 'http://vocabularios.saij.gob.ar/anmthes/', 
         ), 
-        'http://id.loc.gov/vocabulary/iso639-5/suggest' => array(
-            'name' => 'ISO 639-5 Language Families and Groups', 
-            'url'  => 'http://id.loc.gov/vocabulary/iso639-5.html', 
+        'http://vocabularios.caicyt.gov.ar/sociables/suggest.php' => array(
+            'name' => 'Vocabulario Latinoamericano de Ciencias Sociales', 
+            'url'  => 'http://vocabularios.caicyt.gov.ar/sociables/', 
+        ), 
+        'http://vocabularios.caicyt.gov.ar/salud/suggest.php' => array(
+            'name' => 'Vocabulario de Ciencias de la Salud para Argentina', 
+            'url'  => 'http://vocabularios.caicyt.gov.ar/salud/', 
+        ), 
+        'http://vocabularios.caicyt.gov.ar/historiaargentina/suggest.php' => array(
+            'name' => 'Tesauro de Historia Argentina', 
+            'url'  => 'http://vocabularios.caicyt.gov.ar/historiaargentina/', 
+        ), 
+        'http://vocabularios.caicyt.gov.ar/deportes/suggest.php' => array(
+            'name' => 'Vocabulario controlado sobre deportes', 
+            'url'  => 'http://vocabularios.caicyt.gov.ar/deportes/', 
+        ), 
+        'http://vocabularios.caicyt.gov.ar/calish/suggest.php' => array(
+            'name' => 'CaLiSH', 
+            'url'  => 'http://vocabularios.caicyt.gov.ar/calish/', 
+        ), 
+
+        'http://vocabularyserver.com/tadirah/es/suggest.php' => array(
+            'name' => 'TaDiRAH - Taxonomía sobre Actividades de investigación digital en humanidades', 
+            'url'  => 'http://vocabularyserver.com/tadirah/es/', 
+        ), 
+        'http://vocabularios.caicyt.gov.ar/tesinfo/suggest.php' => array(
+            'name' => 'Tesauro sobre información y conocimiento', 
+            'url'  => 'http://vocabularios.caicyt.gov.ar/tesinfo/', 
         ), 
     );
     
